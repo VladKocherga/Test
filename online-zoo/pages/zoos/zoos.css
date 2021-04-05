@@ -1,0 +1,97 @@
+.main__zoos {
+  padding-top: 80px;
+}
+.zoos-wrapper {
+  position: absolute;
+  height: 100%;
+  padding: 112px 30px 500px 30px;
+}
+.zoos-sidebar {
+  position: sticky;
+  top: 30px;
+  left: 30px;
+  bottom: 80px;
+  width: 100px;
+  height: fit-content;
+  padding: 16px 0px;
+
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  border-radius: 5px;
+}
+.zoos-sidebar__animal {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fe9013;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zoos-sidebar__animal:hover {
+  border: 2px solid #4b9200;
+}
+zoos-sidebar__animal_img {
+  width: 80px;
+  height: 80px;
+  fill: black;
+  transition: 0.3s all ease-in-out;
+}
+.zoos-sidebar__animal:hover .zoos-sidebar__animal_svg {
+  fill: #4b9200;
+}
+.zoos-sidebar__tooltip {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 10px;
+}
+.zoos-sidebar__tooltip__text {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(73, 73, 73);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 100px;
+}
+.zoos-sidebar__tooltip:hover .zoos-sidebar__tooltip__text {
+  visibility: visible;
+}
+.h2_panda-camera {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 91px;
+  margin-top: 23px;
+  /* or 58px */
+
+  color: #333b41;
+}
